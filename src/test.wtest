@@ -1,0 +1,11 @@
+import clientes.*
+import remicerdos.*
+
+test "roxana_TEST_10KM" {
+
+	anaMaria.estaEconomicamenteEstable(true)
+	assert.equals(roxana.valorDeViaje(10, ludmila), 180)
+	assert.equals(roxana.valorDeViaje(10, anaMaria), 300)
+	assert.equals(roxana.valorDeViaje(10, ludmila), 180)
+	
+}
